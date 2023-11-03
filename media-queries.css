@@ -1,0 +1,12 @@
+@media screen and (min-width: 425px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-img {
+        display: flex;
+        flex-direction:
+    }
+}
+
+
