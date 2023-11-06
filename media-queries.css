@@ -1,12 +1,133 @@
-@media screen and (min-width: 425px) {
-    .nav-links {
+/*@media screen and (max-width: 425px) {*/
+/*    .body {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        flex-direction: column;*/
+/*        margin: auto;*/
+/*    }*/
+/*}*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 425px) {
+    .alert-info {
         display: flex;
-        flex-direction: column;
+        margin: 15px auto;
+        padding: 10px;
+        justify-content: center;
+        /*margin-left: 20px;*/
+        width: 400px;
+        background-color: #CBFFFF;
+        border: 2px solid #CCCCCC;
     }
+
+    h1 {
+        display: flex;
+        padding: 2px;
+        /*margin: 0 auto;*/
+        justify-content: center;
+        width: 400px;
+        background-image: conic-gradient(#553c9a 0%, #553c9a 33%, #ee4b2b 33%, #ee4b2b 66%, #00c2cb 66%, #00FF00 99%);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+
+    ul.nav-links {
+        display: inline-block;
+        /*margin: 0 auto;*/
+        justify-content: center;
+        padding: 8px;
+        /*align-items: center;*/
+        list-style: none;
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+        /*background-color: #CCCCCC;*/
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-links li:nth-child(1) {
+        margin: 10px auto;
+        padding: 10px 180px;
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+
+    .nav-links li:nth-child(2) {
+        margin: 10px auto;
+        padding: 10px 180px;
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+
+    .nav-links li:nth-child(3) {
+        margin: 10px auto;
+        padding: 10px 180px;
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+
+    .nav-links li:nth-child(4) {
+        margin: 10px auto;
+        padding: 10px 175px;
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+
     .header-img {
         display: flex;
-        flex-direction:
+        margin: 10px auto;
+        height: 224px;
+        width: 400px;
+    }
+
+    #main {
+        margin: 20px;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+
+    .sub-section {
+        margin: 20px;
+    }
+
+    #bottom {
+        margin-top: 4em;
+        width: 50%;
+        display: inline-block;
+    }
+
+    #social-media-links {
+        display: inline-block;
+        justify-content: right;
+        font-size: 30px;
+        margin-left: 90px;
     }
 }
+
+
+
+
+
+/*@media screen and (min-width: 425px) {*/
+/*    .nav-links {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*    }*/
+/*    .header-img {*/
+/*        display: flex;*/
+/*        flex-direction:*/
+/*    }*/
+/*}*/
 
 
