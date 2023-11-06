@@ -126,6 +126,11 @@ html {
 }
 @media screen and (min-width: 426px) {
 
+    * {
+        background-image: url("shoe_rack.jpeg");
+        object-fit: cover;
+    }
+
     .alert-info {
         display: none;
     }
